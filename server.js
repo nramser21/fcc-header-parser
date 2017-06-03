@@ -18,7 +18,7 @@ app.get('/whoami', (req, res) => {
   res.send(info);
 });
 
-app.get('/', (res, req) => {
+app.get('/', (req, res) => {
   res.send('Go to /whoami to get ipaddress, language, and software info');
 });
 
